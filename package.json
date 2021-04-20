@@ -1,7 +1,8 @@
 {
   "name": "backend",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "start": "node server.js"
   },
   "dependencies": {
     "axios": "^0.21.1",
