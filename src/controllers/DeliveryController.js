@@ -16,7 +16,6 @@ module.exports = {
     async store(request, response) {
       
         const { nome, dataEntrega, pontoPartida, pontoDestino } = request.body;
-        console.log("será?")
         delivery = await Delivery.create({
             nome,
             dataEntrega,
